@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Hero() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-slate-100">
       <div className="container grid gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">
@@ -27,7 +27,7 @@ export default function Hero() {
             className="inline-flex h-9 w-36 items-center justify-center rounded-lg bg-[#000000] text-sm font-medium text-gray-50 shadow transition-colors hover:bg-red-800 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#ff6b6b] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#ff6b6b] dark:text-gray-900 dark:hover:bg-[#ff4d4d]/90 dark:focus-visible:ring-[#ff6b6b]"
             prefetch={false}
           >
-            Book Consultation
+            Get Started
           </Link>
         </div>
         <Image

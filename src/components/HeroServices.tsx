@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+
 
 export default function HeroServices() {
   return (
@@ -12,7 +14,7 @@ export default function HeroServices() {
               <span className="font-bold text-red-800"> Change</span>
             </h2>
             <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              We offer a wide range of services to help your business grow.
+              Personalized Services to Optimize Your Goals
             </p>
           </div>
         </div>
@@ -29,6 +31,7 @@ export default function HeroServices() {
             <p className="text-gray-500 text-center dark:text-gray-400">
               Personalized coaching that goes with your lifestyle.
             </p>
+            <Button>Enroll Now</Button>
           </div>
           <div className="flex flex-col items-center space-y-4 rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950 dark:text-gray-50">
             <Image
@@ -43,6 +46,7 @@ export default function HeroServices() {
               There are a variety of training programs that will fit a persons
               goals and implement into your lifestyle.
             </p>
+            <Button>Buy Now</Button>
           </div>
         </div>
       </div>

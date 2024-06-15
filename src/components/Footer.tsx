@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="w-full bg-slate-200 text-black font-semibold py-12 px-4 md:px-6">
-      <div className="container mx-auto flex flex-col items-center justify-center gap-8">
-        <nav className="flex flex-wrap justify-center gap-4 text-sm">
+      <div className="container mx-auto flex flex-col items-center justify-center gap-4">
+        <nav className="flex flex-wrap justify-center gap-10 text-md">
           <Link href="#" className="hover:text-gray-50" prefetch={false}>
             Home
           </Link>
@@ -19,7 +19,7 @@ export default function Footer() {
             Clients
           </Link>
           <Link href="#" className="hover:text-gray-50" prefetch={false}>
-           About
+            About
           </Link>
         </nav>
         <div className="flex flex-col items-center gap-4 text-sm">
@@ -40,7 +40,9 @@ export default function Footer() {
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
               <MailOpenIcon className="h-5 w-5" />
-              <span>kyle@kylewells.com</span>
+              <span>
+                <a href="mailto:kyle@kylewells.com">kyle@kylewells.com</a>
+              </span>
             </div>
             <div className="flex items-center gap-2">
               <PhoneIcon className="h-5 w-5" />
