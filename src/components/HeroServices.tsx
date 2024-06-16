@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export default function HeroServices() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-slate-200 dark:bg-gray-800">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -31,7 +31,7 @@ export default function HeroServices() {
             <p className="text-gray-500 text-center dark:text-gray-400">
               Personalized coaching that goes with your lifestyle.
             </p>
-            <Button>Enroll Now</Button>
+            <Button >Enroll Now</Button>
           </div>
           <div className="flex flex-col items-center space-y-4 rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950 dark:text-gray-50">
             <Image

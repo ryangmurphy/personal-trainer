@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Hero() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-slate-100">
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-slate-200">
       <div className="container grid gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">
@@ -17,7 +17,7 @@ export default function Hero() {
             <h2 className="text-3xl text-red-800 font-extrabold tracking-tighter sm:text-5xl xl:text-6xl/none">
               Personal Trainer
             </h2>
-            <p className="max-w-[600px] text-gray-500 font-semibold md:text-xl dark:text-gray-400">
+            <p className="max-w-[600px] text-slate-600 font-semibold md:text-xl dark:text-gray-400">
               Personalized training programs to help you achieve your fitness
               goals. Get started with a free consultation.
             </p>

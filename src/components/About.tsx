@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <div className="flex flex-col">
-      <section className="w-full py-12 md:py-24 lg:py-32">
+      <section className="w-full py-12  md:py-24 lg:py-32 ">
         <div className="container grid gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
           <Image
             src="/cbumabout.jpg"
@@ -26,9 +26,9 @@ export default function About() {
                 specimen book. It has survived not only five centuries, but also
                 the leap into electronic typesetting, remaining essentially
                 unchanged. It was popularized in the 1960s with the release of
-                sheets containing Lorem Ipsum passages, and more
-                recently with desktop publishing software like PageMaker
-                including versions of Lorem Ipsum
+                sheets containing Lorem Ipsum passages, and more recently with
+                desktop publishing software like PageMaker including versions of
+                Lorem Ipsum
               </p>
             </div>
             <div className="space-y-2 pt-6">
@@ -46,22 +46,20 @@ export default function About() {
                 </li>
                 <li>
                   <CheckIcon className="mr-2 inline-block h-5 w-5 text-green-500" />
-                  
                 </li>
                 <li>
                   <CheckIcon className="mr-2 inline-block h-5 w-5 text-green-500" />
-                  
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </section>
-      <section className="w-full py-6 md:py-12 lg:py-18 rounded-xl bg-gray-100 dark:bg-gray-800">
+      <section className="w-full py-6 md:py-12 lg:py-18 rounded-xl bg-slate-300 rounded-lg dark:bg-gray-800">
         <div className="container grid gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
           <div className="space-y-4">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl">
+              <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl pb-4">
                 About <span className="text-red-800">Kyle</span>
               </h2>
               <p className="text-gray-500 md:text-xl dark:text-gray-400">
@@ -73,7 +71,7 @@ export default function About() {
               </p>
             </div>
             <div className="space-y-2">
-              <h3 className="text-2xl font-bold">Coaching Philosophy</h3>
+              <h3 className="text-2xl font-bold pb-2">Coaching Philosophy</h3>
               <p className="text-gray-500 md:text-xl dark:text-gray-400">
                 Kyle believes that fitness is not just about physical
                 transformation, but also about improving overall health,
@@ -87,7 +85,9 @@ export default function About() {
           </div>
           <div className="space-y-4">
             <div className="space-y-2">
-              <h3 className="text-2xl font-bold py-2">Specialties and Expertise</h3>
+              <h3 className="text-2xl font-bold pt-8 pb-2">
+                Specialties and Expertise
+              </h3>
               <p className="text-gray-500 md:text-xl dark:text-gray-400">
                 Kyle specializes in strength training, weight loss, and sports
                 performance. He has extensive experience working with clients
@@ -98,7 +98,7 @@ export default function About() {
             </div>
             <div className="space-y-2">
               <h3 className="text-2xl font-bold">Outside the Gym</h3>
-              <p className="text-gray-500 md:text-xl dark:text-gray-400">
+              <p className="text-gray-500 md:text-xl pb-2 dark:text-gray-400">
                 When he's not in the gym, Kyle enjoys spending time outdoors,
                 hiking, and exploring new trails. He is also an avid reader and
                 loves to learn about the latest advancements in exercise science

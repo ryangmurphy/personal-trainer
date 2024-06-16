@@ -15,10 +15,10 @@ export default function HeroAbout() {
           />
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2 ml-8">
-              <h2 className="text-3xl font-extrabold tracking-tighter sm:text-5xl">
+              <h2 className="text-3xl text-slate-950 font-extrabold tracking-tighter sm:text-5xl">
                 About
               </h2>
-              <p className="max-w-[600px] font-medium text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              <p className="max-w-[600px] font-medium text-slate-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 Kyle Wells is a 27-year-old Personal Trainer & Fitness Coach who
                 offers his expertise online and in-person. With a passion for
                 fitness and a commitment to helping others achieve their health
@@ -28,12 +28,12 @@ export default function HeroAbout() {
             </div>
             <ul className="grid gap-4">
               <li className="flex items-start gap-3">
-                <CheckIcon className="mt-1 h-5 w-5 flex-shrink-0 text-gray-500 dark:text-gray-400" />
+                <CheckIcon className="mt-1 h-5 w-5 flex-shrink-0 text-slate-500 dark:text-gray-400" />
                 <div>
-                  <h3 className="text-lg font-medium">
+                  <h3 className="text-lg font-semibold text-slate-950">
                     12+ Years of Experience
                   </h3>
-                  <p className="text-gray-500 font-medium dark:text-gray-400">
+                  <p className="text-slate-500 font-medium dark:text-gray-400">
                     Starting to workout from a young age and absorbing all the
                     knowledge he could throughout the years, Kyle has developed
                     a deep understanding of fitness and nutrition.
@@ -41,12 +41,12 @@ export default function HeroAbout() {
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <CheckIcon className="mt-1 h-5 w-5 flex-shrink-0 text-gray-500 dark:text-gray-400" />
+                <CheckIcon className="mt-1 h-5 w-5 flex-shrink-0 text-slate-500 dark:text-gray-400" />
                 <div>
-                  <h3 className="text-lg font-medium">
+                  <h3 className="text-lg font-semibold text-slate-950">
                     Certified & Knowledgeable
                   </h3>
-                  <p className="text-gray-500 font-medium dark:text-gray-400">
+                  <p className="text-slate-500 font-medium dark:text-gray-400">
                     Certified by top fitness institutions, Kyle continuously
                     updates his knowledge to stay ahead in the industry and
                     provide the best guidance possible.
@@ -54,10 +54,12 @@ export default function HeroAbout() {
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <CheckIcon className="mt-1 h-5 w-5 flex-shrink-0 text-gray-500 dark:text-gray-400" />
+                <CheckIcon className="mt-1 h-5 w-5 flex-shrink-0 text-slate-500 dark:text-gray-400" />
                 <div>
-                  <h3 className="text-lg font-medium">Supportive Community</h3>
-                  <p className="text-gray-500 font-medium dark:text-gray-400">
+                  <h3 className="text-lg font-semibold text-slate-950">
+                    Supportive Community
+                  </h3>
+                  <p className="text-slate-500 font-medium dark:text-gray-400">
                     Join a community of like-minded individuals who support each
                     other on their fitness journeys. Kyle fosters a positive and
                     motivating environment for all clients.

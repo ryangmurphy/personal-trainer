@@ -5,14 +5,14 @@ import BeforeAfterSlider from "@/components/BeforeAfterSlider";
 export default function Clients() {
   return (
     <div>
-      <section className="w-full py-12 md:py-24 lg:py-32">
+      <section className="w-full py-12 bg-slate-600 rounded-lg  md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+          <div className="flex flex-col items-center  justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+              <h1 className="text-3xl font-bold text-slate-50 tracking-tighter sm:text-5xl md:text-6xl">
                 Client Transformations
               </h1>
-              <p className="max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+              <p className="max-w-[700px] text-slate-200 md:text-xl dark:text-gray-400">
                 Discover the incredible results my clients have achieved through
                 my fitness programs.
               </p>
@@ -29,10 +29,10 @@ export default function Clients() {
       </section>
       <section
         id="transformations"
-        className="w-full py-12 mb-4 md:py-24 lg:py-32 bg-slate-100 rounded-2xl dark:bg-gray-800"
+        className="w-full py-12 mb-4 md:py-24 lg:py-32 rounded-lg dark:bg-gray-800"
       >
         <div className="container grid grid-cols-1 gap-6 px-4 md:grid-cols-2 lg:grid-cols-3 md:px-6">
-          <div className="overflow-hidden rounded-lg bg-white shadow-sm transition-all hover:scale-[1.02] hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
+          <div className="overflow-hidden rounded-lg bg-slate-600 shadow-sm transition-all hover:scale-[1.02] hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
             <div className="grid grid-cols-2">
               <BeforeAfterSlider
                 beforeImage="/before.webp"
@@ -41,14 +41,14 @@ export default function Clients() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-bold">John Doe</h3>
-              <p className="text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl text-slate-50 font-bold">John Doe</h3>
+              <p className="text-slate-200 dark:text-slate-400">
                 "I never thought I could achieve these results, but the\n
                 program at this gym has truly transformed my life."
               </p>
             </div>
           </div>
-          <div className="overflow-hidden rounded-lg bg-white shadow-sm transition-all hover:scale-[1.02] hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
+          <div className="overflow-hidden rounded-lg bg-slate-600 shadow-sm transition-all hover:scale-[1.02] hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
             <div className="grid grid-cols-2">
               <BeforeAfterSlider
                 beforeImage="/before.webp"
@@ -57,14 +57,14 @@ export default function Clients() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-bold">Jane Smith</h3>
-              <p className="text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl text-slate-50 font-bold">John Doe</h3>
+              <p className="text-slate-200 dark:text-slate-400">
                 "I'm so grateful for the support and guidance I received at\n
                 this gym. It has truly changed my life."
               </p>
             </div>
           </div>
-          <div className="overflow-hidden rounded-lg bg-white shadow-sm transition-all hover:scale-[1.02] hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
+          <div className="overflow-hidden rounded-lg bg-slate-600 shadow-sm transition-all hover:scale-[1.02] hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
             <div className="grid grid-cols-2">
               <BeforeAfterSlider
                 beforeImage="/before.webp"
@@ -73,14 +73,14 @@ export default function Clients() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-bold">Bob Johnson</h3>
-              <p className="text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl text-slate-50 font-bold">John Doe</h3>
+              <p className="text-slate-200 dark:text-slate-400">
                 "I never thought I could get in shape, but this gym proved me\n
                 wrong. I'm so proud of my transformation."
               </p>
             </div>
           </div>
-          <div className="overflow-hidden rounded-lg bg-white shadow-sm transition-all hover:scale-[1.02] hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
+          <div className="overflow-hidden rounded-lg bg-slate-600 shadow-sm transition-all hover:scale-[1.02] hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
             <div className="grid grid-cols-2">
               <BeforeAfterSlider
                 beforeImage="/before.webp"
@@ -89,14 +89,14 @@ export default function Clients() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-bold">Sarah Lee</h3>
-              <p className="text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl text-slate-50 font-bold">John Doe</h3>
+              <p className="text-slate-200 dark:text-slate-400">
                 "I never thought I could achieve these results, but the\n
                 program at this gym has truly transformed my life."
               </p>
             </div>
           </div>
-          <div className="overflow-hidden rounded-lg bg-white shadow-sm transition-all hover:scale-[1.02] hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
+          <div className="overflow-hidden rounded-lg bg-slate-600 shadow-sm transition-all hover:scale-[1.02] hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
             <div className="grid grid-cols-2">
               <BeforeAfterSlider
                 beforeImage="/before.webp"
@@ -105,14 +105,14 @@ export default function Clients() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-bold">Tom Wilson</h3>
-              <p className="text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl text-slate-50 font-bold">John Doe</h3>
+              <p className="text-slate-200 dark:text-slate-400">
                 "I'm so grateful for the support and guidance I received at\n
                 this gym. It has truly changed my life."
               </p>
             </div>
           </div>
-          <div className="overflow-hidden rounded-lg bg-white shadow-sm transition-all hover:scale-[1.02] hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
+          <div className="overflow-hidden rounded-lg bg-slate-600 shadow-sm transition-all hover:scale-[1.02] hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
             <div className="grid grid-cols-2">
               <BeforeAfterSlider
                 beforeImage="/before.webp"
@@ -121,8 +121,8 @@ export default function Clients() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-bold">Emily Davis</h3>
-              <p className="text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl text-slate-50 font-bold">John Doe</h3>
+              <p className="text-slate-200 dark:text-slate-400">
                 "I never thought I could get in shape, but this gym proved me\n
                 wrong. I'm so proud of my transformation."
               </p>
