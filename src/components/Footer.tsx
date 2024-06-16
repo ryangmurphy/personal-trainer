@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-slate-200 text-black font-semibold py-12 px-4 md:px-6">
+    <footer className="w-full bg-transparent text-black font-semibold py-12 px-4 md:px-6">
       <div className="container mx-auto flex flex-col items-center justify-center gap-4">
         <nav className="flex flex-wrap justify-center gap-10 text-md">
           <Link href="#" className="hover:text-gray-50" prefetch={false}>
@@ -22,7 +22,7 @@ export default function Footer() {
             About
           </Link>
         </nav>
-        <div className="flex flex-col items-center gap-4 text-sm">
+        <div className="flex flex-col pt-2 items-center gap-4 text-sm">
           <div className="flex items-center gap-4">
             <Link href="#" className="hover:text-gray-50" prefetch={false}>
               <FacebookIcon className="h-5 w-5" />
@@ -37,7 +37,7 @@ export default function Footer() {
               <LinkedinIcon className="h-5 w-5" />
             </Link>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 pt-2">
             <div className="flex items-center gap-2">
               <MailOpenIcon className="h-5 w-5" />
               <span>
@@ -50,7 +50,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <p className="text-xs text-gray-500">
+        <p className="text-xs pt-2 text-gray-500">
           &copy; 2024 Kyle Wells. All rights reserved.
         </p>
       </div>

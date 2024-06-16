@@ -38,27 +38,6 @@ export default function HeroTransformation() {
               alt="Client 3"
             />
           </div>
-          <div className="bg-slate-300 dark:bg-gray-900 rounded-lg shadow-lg p-4">
-            <BeforeAfterSlider
-              beforeImage="/before.webp"
-              afterImage="/after.jpg"
-              alt="Client 4"
-            />
-          </div>
-          <div className="bg-slate-300 dark:bg-gray-900 rounded-lg shadow-lg p-4">
-            <BeforeAfterSlider
-              beforeImage="/before.webp"
-              afterImage="/after.jpg"
-              alt="Client 5"
-            />
-          </div>
-          <div className="bg-slate-300 dark:bg-gray-900 rounded-lg shadow-lg p-4">
-            <BeforeAfterSlider
-              beforeImage="/before.webp"
-              afterImage="/after.jpg"
-              alt="Client 6"
-            />
-          </div>
         </div>
       </div>
     </section>
