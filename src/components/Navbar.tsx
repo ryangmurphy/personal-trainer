@@ -27,7 +27,7 @@ export default function Navbar() {
                 height={150}
                 width={150}
                 alt=""
-                className="h-6 w-6"
+                className="h-10 w-10"
               />
               <span className="sr-only">Kyle Wells</span>
             </Link>
@@ -41,35 +41,35 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              href="#Coaching"
+              href="/Coaching"
               className="flex w-full items-center py-2 text-lg font-semibold"
               prefetch={false}
             >
               Coaching
             </Link>
             <Link
-              href="#"
+              href="/Programs"
               className="flex w-full items-center py-2 text-lg font-semibold"
               prefetch={false}
             >
               Programs
             </Link>
             <Link
-              href="#"
+              href="/Clients"
               className="flex w-full items-center py-2 text-lg font-semibold"
               prefetch={false}
             >
               Clients
             </Link>
             <Link
-              href="#"
+              href="About"
               className="flex w-full items-center py-2 text-lg font-semibold"
               prefetch={false}
             >
               About
             </Link>
             <Link
-              href="#"
+              href="Contact"
               className="flex w-full items-center py-2 text-lg font-semibold"
               prefetch={false}
             >
