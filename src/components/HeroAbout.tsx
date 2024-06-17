@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { JSX, SVGProps } from "react";
 
 export default function HeroAbout() {
   return (
@@ -74,7 +75,7 @@ export default function HeroAbout() {
   );
 }
 
-function CheckIcon(props) {
+function CheckIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
