@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { JSX, SVGProps } from "react";
 
 
 export default function Program1() {
@@ -140,7 +141,7 @@ export default function Program1() {
                 </p>
               </div>
               <p className="text-gray-700 dark:text-gray-300 mb-2">
-                I've been using the workouts in this book for the past few
+                I&apos;ve been using the workouts in this book for the past few
                 months and have seen incredible results. The instructions are
                 clear and the progressions are well-designed. Highly
                 recommended!
@@ -179,7 +180,7 @@ export default function Program1() {
   );
 }
 
-function StarIcon(props) {
+function StarIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

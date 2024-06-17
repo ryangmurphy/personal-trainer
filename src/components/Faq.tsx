@@ -5,6 +5,7 @@ import {
 } from "@/components/ui/collapsible";
 
 import { Card, CardContent } from "@/components/ui/card";
+import { JSX, SVGProps } from "react";
 
 export default function FAQ() {
   return (
@@ -77,7 +78,7 @@ export default function FAQ() {
             </CollapsibleTrigger>
             <CollapsibleContent>
               <p className="text-slate-500 dark:text-gray-400">
-                Yes, you can cancel your subscription at any time. We don't
+                Yes, you can cancel your subscription at any time. We don&apos;t
                 believe in locking you into long-term contracts. Your
                 satisfaction is our top priority, so we want you to feel
                 empowered to make the best decision for your fitness journey.
@@ -91,7 +92,7 @@ export default function FAQ() {
 }
 
 
-function ChevronDownIcon(props) {
+function ChevronDownIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

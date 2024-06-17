@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { JSX, SVGProps } from "react";
 
 export default function About() {
   return (
@@ -20,7 +21,7 @@ export default function About() {
               </h1>
               <p className="text-gray-500  pt-6 md:text-xl dark:text-gray-400">
                 Kyle Wells, Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
+                typesetting industry. Lorem Ipsum has been the industry&apos;s
                 standard dummy text ever since the 1500s, when an unknown
                 printer took a galley of type and scrambled it to make a type
                 specimen book. It has survived not only five centuries, but also
@@ -55,7 +56,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="w-full py-6 md:py-12 lg:py-18 rounded-xl bg-slate-300 rounded-lg dark:bg-gray-800">
+      <section className="w-full py-6 md:py-12 lg:py-18 rounded-xl bg-slate-300 dark:bg-gray-800">
         <div className="container grid gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
           <div className="space-y-4">
             <div className="space-y-2">
@@ -77,7 +78,7 @@ export default function About() {
                 transformation, but also about improving overall health,
                 well-being, and quality of life. He works closely with each
                 client to develop a personalized plan that addresses their
-                unique needs, goals, and lifestyle. Kyle's coaching style
+                unique needs, goals, and lifestyle. Kyle&apos;s coaching style
                 emphasizes proper form, progressive overload, and a balanced
                 approach to nutrition and recovery.
               </p>
@@ -99,11 +100,11 @@ export default function About() {
             <div className="space-y-2">
               <h3 className="text-2xl font-bold">Outside the Gym</h3>
               <p className="text-gray-500 md:text-xl pb-2 dark:text-gray-400">
-                When he's not in the gym, Kyle enjoys spending time outdoors,
+                When he&apos;s not in the gym, Kyle enjoys spending time outdoors,
                 hiking, and exploring new trails. He is also an avid reader and
                 loves to learn about the latest advancements in exercise science
                 and nutrition. Kyle is committed to continuous professional
-                development and staying up-to-date with the industry's best
+                development and staying up-to-date with the industry&apos;s best
                 practices.
               </p>
             </div>
@@ -115,7 +116,7 @@ export default function About() {
 }
 
 
-function CheckIcon(props) {
+function CheckIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

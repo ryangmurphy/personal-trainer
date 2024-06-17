@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import { JSX, SVGProps } from "react";
 
 export default function Contact() {
   return (
@@ -19,7 +20,7 @@ export default function Contact() {
         <h2 className="text-3xl font-bold text-slate-950">Contact</h2>
         <p className="text-slate-700 dark:text-gray-400 font-semibold">
           Have a question or want to know more about coaching or the programs?
-          Fill out the form and we'll get back to you as soon as possible.
+          Fill out the form and we&apos;ll get back to you as soon as possible.
         </p>
         <div className="space-y-2">
           <div className="flex items-center space-x-2">
@@ -47,9 +48,9 @@ export default function Contact() {
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen=""
+                allowFullScreen={true}
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
@@ -57,7 +58,9 @@ export default function Contact() {
       </div>
       <Card>
         <CardHeader>
-          <CardTitle className="font-bold text-slate-950">Get in Touch</CardTitle>
+          <CardTitle className="font-bold text-slate-950">
+            Get in Touch
+          </CardTitle>
           <CardDescription className="text-slate-700 dark:text-gray-400 font-semibold pt-2">
             Get Started Today.
           </CardDescription>
@@ -94,7 +97,7 @@ export default function Contact() {
   );
 }
 
-function MailIcon(props) {
+function MailIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -114,7 +117,7 @@ function MailIcon(props) {
   );
 }
 
-function MapPinIcon(props) {
+function MapPinIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -134,7 +137,7 @@ function MapPinIcon(props) {
   );
 }
 
-function PhoneIcon(props) {
+function PhoneIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

@@ -50,7 +50,7 @@ export default function Programs() {
               </h2>
               <p className="max-w-[900px] text-slate-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 Choose from our wide range of fitness programs designed to help
-                you achieve your goals, whether you're a beginner or an
+                you achieve your goals, whether you&apos;re a beginner or an
                 experienced athlete.
               </p>
             </div>
@@ -86,7 +86,7 @@ export default function Programs() {
                 className="mx-auto aspect-video overflow-hidden rounded-lg object-cover"
               />
               <div className="mt-4 space-y-2">
-                <h3 className="text-xl font-bold">Men's Training</h3>
+                <h3 className="text-xl font-bold">Men&apos;s Training</h3>
                 <p className="text-slate-600 dark:text-gray-400 pb-4">
                   Build muscle, increase strength, and improve overall fitness
                   with our expert-designed strength training program.
@@ -105,7 +105,7 @@ export default function Programs() {
                 className="mx-auto aspect-video overflow-hidden rounded-lg object-cover"
               />
               <div className="mt-4 space-y-2">
-                <h3 className="text-xl font-bold">Women's Training</h3>
+                <h3 className="text-xl font-bold">Women&apos;s Training</h3>
                 <p className="text-slate-600 dark:text-gray-400 pb-4">
                   Build muscle, increase strength, and improve overall fitness
                   with our expert-designed strength training program.
@@ -141,10 +141,10 @@ export default function Programs() {
                   </div>
                 </div>
                 <p className="text-slate-600 dark:text-gray-400">
-                  "I've been using the Strength Training program for 6 months\n
-                  and I've seen incredible results. The workouts are
-                  challenging\n but effective, and the support from the trainers
-                  has been\n invaluable."
+                  &quot;I&apos;ve been using the Strength Training program for 6
+                  months\n and I&apos;ve seen incredible results. The workouts
+                  are challenging\n but effective, and the support from the
+                  trainers has been\n invaluable.&quot;
                 </p>
               </div>
               <div className="flex flex-col rounded-lg bg-slate-300 p-6 shadow-sm transition-all hover:scale-105 hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
@@ -157,10 +157,10 @@ export default function Programs() {
                   </div>
                 </div>
                 <p className="text-slate-600 dark:text-gray-400">
-                  "The Cardio Blast program has completely transformed my\n
-                  fitness level. I've never felt more energized and confident.\n
-                  The workouts are challenging but the results speak for\n
-                  themselves."
+                  &quot;The Cardio Blast program has completely transformed my\n
+                  fitness level. I&apos;ve never felt more energized and
+                  confident.\n The workouts are challenging but the results
+                  speak for\n themselves.&quot;
                 </p>
               </div>
               <div className="flex flex-col rounded-lg bg-slate-300 p-6 shadow-sm transition-all hover:scale-105 hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
@@ -173,10 +173,10 @@ export default function Programs() {
                   </div>
                 </div>
                 <p className="text-slate-600 dark:text-gray-400">
-                  "The Yoga Flow program has been a game-changer for me. Not\n
-                  only has it improved my flexibility and balance, but it's
-                  also\n helped me manage my stress and improve my overall
-                  well-being."
+                  &quot;The Yoga Flow program has been a game-changer for me.
+                  Not\n only has it improved my flexibility and balance, but
+                  it&apos;s also\n helped me manage my stress and improve my
+                  overall well-being.&quot;
                 </p>
               </div>
             </div>

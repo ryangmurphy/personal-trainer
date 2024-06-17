@@ -43,8 +43,8 @@ export default function Clients() {
             <div className="p-4">
               <h3 className="text-xl text-slate-50 font-bold">John Doe</h3>
               <p className="text-slate-200 dark:text-slate-400">
-                "I never thought I could achieve these results, but the\n
-                program at this gym has truly transformed my life."
+                &quot;I never thought I could achieve these results, but the\n
+                program at this gym has truly transformed my life.&quot;
               </p>
             </div>
           </div>
@@ -59,8 +59,8 @@ export default function Clients() {
             <div className="p-4">
               <h3 className="text-xl text-slate-50 font-bold">John Doe</h3>
               <p className="text-slate-200 dark:text-slate-400">
-                "I'm so grateful for the support and guidance I received at\n
-                this gym. It has truly changed my life."
+                &quot;I&apos;m so grateful for the support and guidance I
+                received at\n this gym. It has truly changed my life.&quot;
               </p>
             </div>
           </div>
@@ -75,8 +75,8 @@ export default function Clients() {
             <div className="p-4">
               <h3 className="text-xl text-slate-50 font-bold">John Doe</h3>
               <p className="text-slate-200 dark:text-slate-400">
-                "I never thought I could get in shape, but this gym proved me\n
-                wrong. I'm so proud of my transformation."
+                &quot;I never thought I could get in shape, but this gym proved
+                me\n wrong. I&apos;m so proud of my transformation.&quot;
               </p>
             </div>
           </div>
@@ -91,8 +91,8 @@ export default function Clients() {
             <div className="p-4">
               <h3 className="text-xl text-slate-50 font-bold">John Doe</h3>
               <p className="text-slate-200 dark:text-slate-400">
-                "I never thought I could achieve these results, but the\n
-                program at this gym has truly transformed my life."
+                &quot;I never thought I could achieve these results, but the\n
+                program at this gym has truly transformed my life.&quot;
               </p>
             </div>
           </div>
@@ -107,8 +107,8 @@ export default function Clients() {
             <div className="p-4">
               <h3 className="text-xl text-slate-50 font-bold">John Doe</h3>
               <p className="text-slate-200 dark:text-slate-400">
-                "I'm so grateful for the support and guidance I received at\n
-                this gym. It has truly changed my life."
+                &quot;I&apos;m so grateful for the support and guidance I
+                received at\n this gym. It has truly changed my life.&quot;
               </p>
             </div>
           </div>
@@ -123,8 +123,8 @@ export default function Clients() {
             <div className="p-4">
               <h3 className="text-xl text-slate-50 font-bold">John Doe</h3>
               <p className="text-slate-200 dark:text-slate-400">
-                "I never thought I could get in shape, but this gym proved me\n
-                wrong. I'm so proud of my transformation."
+                &quot;I never thought I could get in shape, but this gym proved
+                me\n wrong. I&apos;m so proud of my transformation.&quot;
               </p>
             </div>
           </div>
