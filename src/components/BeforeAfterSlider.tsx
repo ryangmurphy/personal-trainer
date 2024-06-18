@@ -19,8 +19,8 @@ const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
         rightImage={afterImage}
         leftImageLabel=""
         rightImageLabel=""
-        sliderLineColor="#000"
-        handleSize={30}
+        sliderLineColor="#ffff"
+        handleSize={25}
       />
       <p className="text-center mt-4 font-semibold text-black">{alt}</p>
     </div>

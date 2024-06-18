@@ -20,7 +20,7 @@ export default function Contact() {
         <h2 className="text-3xl font-bold text-slate-950">Contact</h2>
         <p className="text-slate-700 dark:text-gray-400 font-semibold">
           Have a question or want to know more about coaching or the programs?
-          Fill out the form and we&apos;ll get back to you as soon as possible.
+          Fill out the form and Kyle will get back to you as soon as possible.
         </p>
         <div className="space-y-2">
           <div className="flex items-center space-x-2">

@@ -3,7 +3,7 @@ import {
   CollapsibleTrigger,
   CollapsibleContent,
 } from "@/components/ui/collapsible";
-
+import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
 import { JSX, SVGProps } from "react";
 
@@ -31,9 +31,13 @@ export default function FAQ() {
             </CollapsibleTrigger>
             <CollapsibleContent>
               <p className="text-slate-500 dark:text-gray-400">
-                Our fitness experts will work with you to assess your goals,
-                fitness level, and preferences to recommend the best program for
-                you. We offer a free consultation to help you get started.
+                Wondering what the best option is for you? Reach out to Kyle
+                through email or fill out the form in the{" "}
+                <Link href="Contact" className="underline">
+                  Contact <span></span>
+                </Link>
+                Section and Kyle will make sure to find the best program for your
+                needs.
               </p>
             </CollapsibleContent>
           </Collapsible>
@@ -62,24 +66,22 @@ export default function FAQ() {
             </CollapsibleTrigger>
             <CollapsibleContent>
               <p className="text-slate-500 dark:text-gray-400">
-                The equipment needed for our fitness programs varies, but we try
-                to keep it minimal and accessible. Most of our programs can be
-                done with just a set of dumbbells or resistance bands. We
-                provide a full list of recommended equipment for each program.
+                Yes, you will need a gym membership or access to gym equipment
+                for majority of the programs unless specified otherwise.
               </p>
             </CollapsibleContent>
           </Collapsible>
           <Collapsible className="rounded-lg bg-slate-50 p-6 shadow-sm dark:bg-gray-950">
             <CollapsibleTrigger className="flex w-full items-center justify-between">
               <h3 className="text-lg font-bold">
-                Can I cancel my subscription at any time?
+                Can I cancel my online coaching at any time?
               </h3>
               <ChevronDownIcon className="h-5 w-5 transition-all" />
             </CollapsibleTrigger>
             <CollapsibleContent>
               <p className="text-slate-500 dark:text-gray-400">
-                Yes, you can cancel your subscription at any time. We don&apos;t
-                believe in locking you into long-term contracts. Your
+                Yes, you can cancel your online coaching at any time. We
+                don&apos;t believe in locking you into long-term contracts. Your
                 satisfaction is our top priority, so we want you to feel
                 empowered to make the best decision for your fitness journey.
               </p>

@@ -29,9 +29,11 @@ export default function HeroServices() {
             />
             <h3 className="text-xl font-bold">Coaching</h3>
             <p className="text-gray-500 text-center dark:text-gray-400">
-              Personalized coaching that goes with your lifestyle.
+              Personalized coaching that fits your goals and changes your lifestyle for the better.
             </p>
-            <Button >Enroll Now</Button>
+            <Button className="border-slate-400 bg-gradient-to-r from-slate-800 to-slate-900 hover:from-red-700 hover:to-red-800">
+              Enroll Now
+            </Button>
           </div>
           <div className="flex flex-col items-center space-y-4 rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950 dark:text-gray-50">
             <Image
@@ -46,7 +48,9 @@ export default function HeroServices() {
               There are a variety of training programs that will fit a persons
               goals and implement into your lifestyle.
             </p>
-            <Button>Buy Now</Button>
+            <Button className="border-slate-400 bg-gradient-to-r from-slate-800 to-slate-900 hover:from-red-700 hover:to-red-800">
+              Buy Now
+            </Button>
           </div>
         </div>
       </div>

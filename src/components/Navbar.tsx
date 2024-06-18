@@ -21,7 +21,7 @@ export default function Navbar() {
         </SheetTrigger>
         <SheetContent side="left">
           <div className="flex w-[150px] items-center justify-start">
-            <Link href="#" className="flex items-center" prefetch={false}>
+            <Link href="/" className="flex items-center" prefetch={false}>
               <Image
                 src="/KyleWellsLogo1.png"
                 height={150}
@@ -144,7 +144,7 @@ export default function Navbar() {
       <div className="ml-auto flex space-x-4">
         <Link
           href="/Contact"
-          className="inline-flex h-9 w-max items-center justify-center rounded-md border-slate-300 bg-gradient-to-r from-slate-700 to-slate-800 hover:from-red-700 hover:to-red-800 px-4 py-2 text-sm font-medium text-slate-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+          className="inline-flex h-9 w-max items-center justify-center rounded-md border-slate-300 bg-gradient-to-r from-slate-800 to-slate-900 hover:from-red-700 hover:to-red-800 px-4 py-2 text-sm font-medium text-slate-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
           prefetch={false}
         >
           Contact

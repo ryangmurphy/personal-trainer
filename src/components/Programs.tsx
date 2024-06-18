@@ -58,14 +58,14 @@ export default function Programs() {
           <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col rounded-lg bg-white p-6 shadow-sm transition-all hover:scale-105 hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
               <Image
-                src=""
+                src="/hypertrophy.jpeg"
                 width="300"
                 height="200"
                 alt="Aesthetic Training"
                 className="mx-auto aspect-video overflow-hidden rounded-lg object-cover"
               />
               <div className="mt-4 space-y-2">
-                <h3 className="text-xl font-bold">Strength Training</h3>
+                <h3 className="text-xl font-bold">Hypertrophy Routine</h3>
                 <p className="text-slate-600 dark:text-gray-400 pb-4">
                   Build muscle, increase strength, and improve overall fitness
                   with our expert-designed strength training program.
@@ -79,41 +79,45 @@ export default function Programs() {
             </div>
             <div className="flex flex-col rounded-lg bg-white p-6 shadow-sm transition-all hover:scale-105 hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
               <Image
-                src=""
+                src="/fatloss.jpeg"
                 width="300"
                 height="200"
                 alt="Cardio Blast"
                 className="mx-auto aspect-video overflow-hidden rounded-lg object-cover"
               />
               <div className="mt-4 space-y-2">
-                <h3 className="text-xl font-bold">Men&apos;s Training</h3>
+                <h3 className="text-xl font-bold">12 Week Fat Loss</h3>
                 <p className="text-slate-600 dark:text-gray-400 pb-4">
                   Build muscle, increase strength, and improve overall fitness
                   with our expert-designed strength training program.
                 </p>
               </div>
-              <Button size="xs" variant="default">
-                Buy Now
-              </Button>
+              <Link href="/Programs/Program2">
+                <Button size="sm" variant="default">
+                  Buy Now
+                </Button>
+              </Link>
             </div>
             <div className="flex flex-col rounded-lg bg-white p-6 shadow-sm transition-all hover:scale-105 hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
               <Image
-                src=""
+                src="/toned.jpeg"
                 width="300"
                 height="200"
                 alt="Yoga Flow"
                 className="mx-auto aspect-video overflow-hidden rounded-lg object-cover"
               />
               <div className="mt-4 space-y-2">
-                <h3 className="text-xl font-bold">Women&apos;s Training</h3>
+                <h3 className="text-xl font-bold">12 Week Toned</h3>
                 <p className="text-slate-600 dark:text-gray-400 pb-4">
                   Build muscle, increase strength, and improve overall fitness
                   with our expert-designed strength training program.
                 </p>
               </div>
-              <Button size="xs" variant="default">
-                Buy Now
-              </Button>
+              <Link href="/Programs/Program3">
+                <Button size="sm" variant="default">
+                  Buy Now
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -136,15 +140,15 @@ export default function Programs() {
                   <div>
                     <h4 className="text-lg font-bold">John Doe</h4>
                     <p className="text-slate-600 dark:text-gray-400">
-                      Strength Training Client
+                      Hypertrophy Client
                     </p>
                   </div>
                 </div>
                 <p className="text-slate-600 dark:text-gray-400">
-                  &quot;I&apos;ve been using the Strength Training program for 6
-                  months\n and I&apos;ve seen incredible results. The workouts
-                  are challenging\n but effective, and the support from the
-                  trainers has been\n invaluable.&quot;
+                  &quot;I&apos;ve been using the Hypertrophy program for 6
+                  months and I&apos;ve seen incredible results. The workouts
+                  are challenging but effective, and the support from the
+                  trainers has been invaluable.&quot;
                 </p>
               </div>
               <div className="flex flex-col rounded-lg bg-slate-300 p-6 shadow-sm transition-all hover:scale-105 hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
@@ -152,15 +156,15 @@ export default function Programs() {
                   <div className="text-center">
                     <h4 className="text-lg font-bold">Jane Smith</h4>
                     <p className="text-slate-600 dark:text-gray-400">
-                      Cardio Blast Client
+                      12 Week Toned Client
                     </p>
                   </div>
                 </div>
                 <p className="text-slate-600 dark:text-gray-400">
-                  &quot;The Cardio Blast program has completely transformed my\n
-                  fitness level. I&apos;ve never felt more energized and
-                  confident.\n The workouts are challenging but the results
-                  speak for\n themselves.&quot;
+                  &quot;The 12 Week Toned program has completely transformed
+                  my fitness level. I&apos;ve never felt more energized and
+                  confident. The workouts are challenging but the results
+                  speak for themselves.&quot;
                 </p>
               </div>
               <div className="flex flex-col rounded-lg bg-slate-300 p-6 shadow-sm transition-all hover:scale-105 hover:shadow-md dark:bg-gray-950 dark:hover:shadow-lg">
@@ -168,14 +172,14 @@ export default function Programs() {
                   <div>
                     <h4 className="text-lg font-bold">Bob Johnson</h4>
                     <p className="text-slate-600 dark:text-gray-400">
-                      Yoga Flow Client
+                      12 Week Fat Loss Client
                     </p>
                   </div>
                 </div>
                 <p className="text-slate-600 dark:text-gray-400">
-                  &quot;The Yoga Flow program has been a game-changer for me.
-                  Not\n only has it improved my flexibility and balance, but
-                  it&apos;s also\n helped me manage my stress and improve my
+                  &quot;The 12 Week Fat Loss program has been a game-changer for
+                  me. Not only has it improved my flexibility and balance, but
+                  it&apos;s also helped me manage my stress and improve my
                   overall well-being.&quot;
                 </p>
               </div>

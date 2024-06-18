@@ -20,16 +20,19 @@ export default function About() {
                 Meet <span className="text-red-800">Kyle Wells</span>
               </h1>
               <p className="text-gray-500  pt-6 md:text-xl dark:text-gray-400">
-                Kyle Wells, Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry&apos;s
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type
-                specimen book. It has survived not only five centuries, but also
-                the leap into electronic typesetting, remaining essentially
-                unchanged. It was popularized in the 1960s with the release of
-                sheets containing Lorem Ipsum passages, and more recently with
-                desktop publishing software like PageMaker including versions of
-                Lorem Ipsum
+                Kyle Wells is a dedicated and passionate personal trainer with a
+                wealth of experience and knowledge in the fitness industry. With
+                a commitment to helping clients achieve their health and fitness
+                goals, Kyle combines personalized training programs with expert
+                nutritional advice to ensure sustainable results.
+                <br />
+                <br />
+                Kyle&apos;s diverse qualifications highlight his expertise in
+                various aspects of fitness and wellness, making him a versatile
+                and reliable choice for anyone looking to improve their physical
+                health. Whether you&apos;re just starting your fitness journey
+                or looking to take your training to the next level, Kyle is here
+                to support and guide you every step of the way.
               </p>
             </div>
             <div className="space-y-2 pt-6">
@@ -43,13 +46,15 @@ export default function About() {
                 </li>
                 <li>
                   <CheckIcon className="mr-2 inline-block h-5 w-5 text-green-500" />
+                  Certified Online Personal Trainer (NASM)
+                </li>
+                <li>
+                  <CheckIcon className="mr-2 inline-block h-5 w-5 text-green-500" />
                   Nutrition Specialist (ISSA)
                 </li>
                 <li>
                   <CheckIcon className="mr-2 inline-block h-5 w-5 text-green-500" />
-                </li>
-                <li>
-                  <CheckIcon className="mr-2 inline-block h-5 w-5 text-green-500" />
+                  CPR and AED Certification
                 </li>
               </ul>
             </div>
@@ -100,12 +105,12 @@ export default function About() {
             <div className="space-y-2">
               <h3 className="text-2xl font-bold">Outside the Gym</h3>
               <p className="text-gray-500 md:text-xl pb-2 dark:text-gray-400">
-                When he&apos;s not in the gym, Kyle enjoys spending time outdoors,
-                hiking, and exploring new trails. He is also an avid reader and
-                loves to learn about the latest advancements in exercise science
-                and nutrition. Kyle is committed to continuous professional
-                development and staying up-to-date with the industry&apos;s best
-                practices.
+                When he&apos;s not in the gym, Kyle enjoys spending time
+                outdoors, hiking, and exploring new trails. He is also an avid
+                reader and loves to learn about the latest advancements in
+                exercise science and nutrition. Kyle is committed to continuous
+                professional development and staying up-to-date with the
+                industry&apos;s best practices.
               </p>
             </div>
           </div>

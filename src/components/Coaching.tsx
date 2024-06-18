@@ -88,7 +88,7 @@ export default function Coaching() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
             <div className="space-y-4">
-              <div className="inline-block rounded-lg bg-slate-100 px-3 py-1 text-xl font-semibold dark:bg-gray-800">
+              <div className="inline-block rounded-lg bg-slate-50 px-3 py-1 text-xl font-semibold dark:bg-gray-800">
                 Online Coaching
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

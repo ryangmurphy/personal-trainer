@@ -24,7 +24,7 @@ export default function Hero() {
           </div>
           <Link
             href="#"
-            className="inline-flex h-9 w-36 items-center justify-center rounded-lg bg-[#000000] text-sm font-medium text-gray-50 shadow transition-colors hover:bg-red-800 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#ff6b6b] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#ff6b6b] dark:text-gray-900 dark:hover:bg-[#ff4d4d]/90 dark:focus-visible:ring-[#ff6b6b]"
+            className="inline-flex h-9 w-36 items-center justify-center rounded-lg border-slate-400 bg-gradient-to-r from-slate-800 to-slate-900 hover:from-red-700 hover:to-red-800 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-red-800 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#ff6b6b] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#ff6b6b] dark:text-gray-900 dark:hover:bg-[#ff4d4d]/90 dark:focus-visible:ring-[#ff6b6b]"
             prefetch={false}
           >
             Get Started

@@ -21,21 +21,21 @@ export default function HeroTransformation() {
             <BeforeAfterSlider
               beforeImage="/before.webp"
               afterImage="/after.jpg"
-              alt="Soar Cizmuh"
+              alt="Tyler Stevens"
             />
           </div>
           <div className="bg-slate-300 dark:bg-gray-900 rounded-lg shadow-lg p-4">
             <BeforeAfterSlider
               beforeImage="/before.webp"
               afterImage="/after.jpg"
-              alt="Red Cizmuh"
+              alt="Ryan Carruthers"
             />
           </div>
           <div className="bg-slate-300 dark:bg-gray-900 rounded-lg shadow-lg p-4">
             <BeforeAfterSlider
               beforeImage="/before.webp"
               afterImage="/after.jpg"
-              alt="Faze Rain"
+              alt="Liam Lynch"
             />
           </div>
         </div>
