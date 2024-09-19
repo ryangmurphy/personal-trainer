@@ -1,4 +1,5 @@
-// pages/contact.js or pages/contact.tsx
+"use client";
+
 import {
   Card,
   CardHeader,
